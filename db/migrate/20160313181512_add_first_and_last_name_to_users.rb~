@@ -1,0 +1,4 @@
+class AddFirstAndLastNameToUsers < ActiveRecord::Migration
+  def change
+  end
+end

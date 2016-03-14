@@ -19,7 +19,7 @@ class Stock < ActiveRecord::Base
 		return nil unless looked_up_stock.name
 
 
-		new_stock = new(ticker: looked_up_stock.symbol, name:looked_up_stock.name)
+		new_stock = new(ticker: looked_up_stock.symbol, name: looked_up_stock.name)
 
 		new_stock.last_price = new_stock.price
 
@@ -40,7 +40,7 @@ class Stock < ActiveRecord::Base
 
   	return "#{opening_price} (Opening)" if opening_price
 
-    "Unavailable"
+        "Unavailable"
 end
 
 
