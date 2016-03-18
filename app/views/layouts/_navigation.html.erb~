@@ -20,7 +20,7 @@
                 <li class="col-md-8 user-name text-right">
                    <i class="fa fa-user"></i>
 
-                     <%= current_user.full_name ? current_user.full_name : current_user.email %>
+                     <%= current_user.full_name ? current_user.full_name : "Anonymous" %>
                  
                 </li>
 
